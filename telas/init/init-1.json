@@ -1,0 +1,9 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Inicie seu trabalho no departamento",
+    "descricao": [
+        "Agora que já cadastramos suas credenciais aqui na fábrica, você pode começar o trabalho. Mas primeiro, você deve bater seu ponto no departamento ao qual você foi destinado. Você precisa dizer que irá trabalhar ali, que ali será seu novo local de trabalho.",
+        "Aqui, nós temos um combinado, uma espécie de código secreto para dizer que vamos começar o trabalho em algum lugar. É só dizer “Git init”"
+    ],
+    "imagens": []
+}

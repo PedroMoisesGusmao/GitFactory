@@ -1,0 +1,32 @@
+{
+    "tipo": "terminal",
+    "desafio": [
+        "Você instalou o git no seu computador e precisa começar a usar.",
+        "O que fazer agora para se identificar como usuário antes de iniciar sua nova jornada na ferramenta?"
+    ],
+    "git_bash": [
+        [
+            {
+                "texto": "playerName@DESKTOP",
+                "cor": "#1BC400"
+            },
+            {
+                "texto": "MINGW64",
+                "cor": "#C00898"
+            },
+            {
+                "texto": "~/factory/levelName",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "(branch)",
+                "cor": "#03ABE0"
+            }
+        ],
+        [
+            {
+                "resposta_correta": "git confi user.name"
+            }
+        ]
+    ]
+}

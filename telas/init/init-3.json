@@ -1,0 +1,32 @@
+{
+    "tipo": "terminal",
+    "desafio": [
+        "Você está com o Git configurado na sua máquina e agora precisa iniciar um novo projeto com Git localmente.",
+        "Que comando usar para inicializar um novo repositório local na pasta atual?"
+    ],
+    "git_bash": [
+        [
+            {
+                "texto": "playerName@DESKTOP",
+                "cor": "#1BC400"
+            },
+            {
+                "texto": "MINGW64",
+                "cor": "#C00898"
+            },
+            {
+                "texto": "~/factory/levelName",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "(branch)",
+                "cor": "#03ABE0"
+            }
+        ],
+        [
+            {
+                "resposta_correta": "git init"
+            }
+        ]
+    ]
+}

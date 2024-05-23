@@ -1,0 +1,21 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Git init",
+    "descricao": [
+        "Pensando na ferramenta do Git, iniciar um novo local de trabalho, ou seja, dizer que aquela pasta do seu computador será um repositório local Git, pode ser comparado ao comando Git init.",
+        "Ao executar esse comando, o Git informará se foi possível iniciar um repositório local ali."
+    ],
+    "exemplo" : [
+        [
+            {
+                "texto": "git init",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "Initialized empty Git repository in C:/projeto/.git/",
+                "cor": "#6FBBE5"
+            }
+        ]
+    ],
+    "imagens": []
+}

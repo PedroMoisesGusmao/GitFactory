@@ -1,0 +1,9 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Registre suas credenciais na fábrica",
+    "descricao": [
+        "A primeira coisa ao entrar aqui na fábrica é se registrar por questões de organização e segurança. Para seguir em frente, vamos precisar fazer seu cadastro, mas do jeito que é feito no git! Assim como aqui na fábrica, a ferramenta possui configurações de usuário para seu funcionamento e é um dos primeiros passos para começar a usá-la.",
+        "Não se preocupe se você ainda não souber como, vamos te ensinar daqui a pouquinho."
+    ],
+    "imagens": []
+}
