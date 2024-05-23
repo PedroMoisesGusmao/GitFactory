@@ -1,0 +1,25 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Git remote add",
+    "descricao": [
+        "Para inserir esse endereço como destinatário do seu projeto, é necessário usar o git remote add.",
+        "O código abaixo irá inserir um endereço remoto com o nome origin."
+    ],
+    "exemplo": [
+        [
+            {
+                "texto": "git remote add",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "origin",
+                "cor": "#1BC400"
+            },
+            {
+                "texto": "“https://github.com/joaodinizaraujo/GitFactory.git”",
+                "cor": "#6FBBE5"
+            }
+        ]
+    ],
+    "imagens": []
+}

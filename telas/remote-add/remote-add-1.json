@@ -1,0 +1,9 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Defina um endereço de destino",
+    "descricao": [
+        "Agora, você precisa escolher para qual endereço que você irá enviar. O endereço que definir aqui, será utilizado no atual projeto como destinatário. Seus projetos serão enviados para esse endereço.",
+        "Comece copiando o endereço do repositório GitHub:"
+    ],
+    "imagens": []
+}
