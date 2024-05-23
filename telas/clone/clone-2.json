@@ -1,0 +1,21 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Git clone",
+    "descricao": [
+        "Para trazer o trabalho já realizado para você contribuir, precisamos usar o git clone.", 
+        "O código abaixo irá pegar o repositório remoto e colocar na sua área de trabalho local."
+    ],
+    "exemplo": [
+        [
+            {
+                "texto": "git clone",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "https://github.com/usuario/repositorio.git",
+                "cor": "#6FBBE5"
+            }
+        ]
+    ],
+    "imagens": []
+}

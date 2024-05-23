@@ -1,0 +1,9 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Caso você queira entrar em um trabalho já iniciado...",
+    "descricao": [
+        "Talvez você queira contribuir em um projeto já existente. Vamos aprender agora como fazer isso.",
+        "Comece copiando o endereço do repositório GitHub:"
+    ],
+    "imagens": []
+}
