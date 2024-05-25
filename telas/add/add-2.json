@@ -3,8 +3,8 @@
     "titulo": "Git add",
     "descricao": [
         "Para fechar a caixa, usamos o comando git add.",
-        "O “.” no comando insere todas as mudanças realizadas.",
-        "No contexto do git, esse estado na caixa se chama “estado preparado”.",
+        "O \".\" no comando insere todas as mudanças realizadas.",
+        "No contexto do git, esse estado na caixa se chama \"estado preparado\".",
         "O código abaixo, irá inserir todas as mudanças na caixa:"
     ],
     "exemplo": [
