@@ -1,5 +1,5 @@
 {
-    "tipo": "dialogo",
+    "tipo": "exemplo",
     "titulo": "Git commit",
     "descricao": [
         "Assim como uma etiqueta identifica uma caixa, um git commit identifica um conjunto de alterações no código no universo Git. Usamos a opção -m para adicionar um comentário personalizado à etiqueta.",

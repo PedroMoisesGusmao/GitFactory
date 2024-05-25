@@ -1,5 +1,5 @@
 {
-    "tipo": "dialogo",
+    "tipo": "exemplo",
     "titulo": "Git status",
     "descricao": [
         "Para isso, você pode usar o git status. Isso vai nos retornar se nossa caixa está em empacotamento, sendo identificada ou se está pronta para envio. ",

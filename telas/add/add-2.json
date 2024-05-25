@@ -1,5 +1,5 @@
 {
-    "tipo": "dialogo",
+    "tipo": "exemplo",
     "titulo": "Git add",
     "descricao": [
         "Para fechar a caixa, usamos o comando git add.",

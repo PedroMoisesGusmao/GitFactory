@@ -1,5 +1,5 @@
 {
-    "tipo": "dialogo",
+    "tipo": "exemplo",
     "titulo": "Git remote add",
     "descricao": [
         "Para inserir esse endereço como destinatário do seu projeto, é necessário usar o git remote add.",
