@@ -8,11 +8,11 @@
     "exemplo": [
         [
             {
-                "texto": "git commit",
+                "texto": "git commit ",
                 "cor": "#FFB800"
             },
             {
-                "texto": "-m",
+                "texto": "-m ",
                 "cor": "#C00898"
             },
             {

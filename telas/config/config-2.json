@@ -8,11 +8,11 @@
     "exemplo": [
         [
             {
-                "texto": "git config",
+                "texto": "git config ",
                 "cor": "#FFB800"
             },
             {
-                "texto": "--global",
+                "texto": "--global ",
                 "cor": "#C00898"
             },
             {
@@ -22,11 +22,11 @@
         ],
         [
             {
-                "texto": "git config",
+                "texto": "git config ",
                 "cor": "#FFB800"
             },
             {
-                "texto": "--global",
+                "texto": "--global ",
                 "cor": "#C00898"
             },
             {
@@ -36,7 +36,7 @@
         ],
         [
             {
-                "texto": "git config",
+                "texto": "git config ",
                 "cor": "#FFB800"
             },
             {

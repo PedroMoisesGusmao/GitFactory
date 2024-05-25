@@ -8,9 +8,11 @@
     "exemplo" : [
         [
             {
-                "texto": "git init",
+                "texto": "git init ",
                 "cor": "#FFB800"
-            },
+            }
+        ],
+        [
             {
                 "texto": "Initialized empty Git repository in C:/projeto/.git/",
                 "cor": "#6FBBE5"

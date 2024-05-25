@@ -8,11 +8,11 @@
     "exemplo": [
         [
             {
-                "texto": "git remote add",
+                "texto": "git remote add ",
                 "cor": "#FFB800"
             },
             {
-                "texto": "origin",
+                "texto": "origin ",
                 "cor": "#1BC400"
             },
             {
