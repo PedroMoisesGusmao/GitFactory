@@ -4,7 +4,6 @@
         "O que fazer agora para adicionar um endereço remoto com nome origin?"
     ],
     "git_bash": [
-        [
             {
                 "texto": "playerName@DESKTOP",
                 "cor": "#1BC400"
@@ -21,11 +20,6 @@
                 "texto": "(branch)",
                 "cor": "#03ABE0"
             }
-        ],
-        [
-            {
-                "resposta_correta": "git clone"
-            }
-        ]
-    ]
+    ],
+    "resposta": ["git clone"]
 }
