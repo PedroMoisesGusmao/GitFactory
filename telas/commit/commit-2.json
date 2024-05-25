@@ -1,0 +1,24 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Git commit",
+    "descricao": [
+        "Assim como uma etiqueta identifica uma caixa, um git commit identifica um conjunto de alterações no código no universo Git. Usamos a opção -m para adicionar um comentário personalizado à etiqueta.",
+        "Mas lembrando que para adicionar uma etiqueta à caixa, ela deve ter mercadorias dentro e estar fechada, então só entram em um commit as alterações adicionadas antes no git add."
+    ],
+    "exemplo": [
+        [
+            {
+                "texto": "git commit",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "-m",
+                "cor": "#C00898"
+            },
+            {
+                "texto": "“comentário das alterações”",
+                "cor": "#6FBBE5"
+            }
+        ]
+    ]
+}

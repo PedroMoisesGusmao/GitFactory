@@ -1,0 +1,34 @@
+{
+    "tipo": "terminal",
+    "desafio": [
+        "Você fez alterações no código. Adicione essas alterações ao estado preparado e depois e adicione a um commit nomeado como “alterações de milhões”"
+    ],
+    "git_bash": [
+        [
+            {
+                "texto": "playerName@DESKTOP",
+                "cor": "#1BC400"
+            },
+            {
+                "texto": "MINGW64",
+                "cor": "#C00898"
+            },
+            {
+                "texto": "~/factory/levelName",
+                "cor": "#FFB800"
+            },
+            {
+                "texto": "(branch)",
+                "cor": "#03ABE0"
+            }
+        ],
+        [
+            {
+                "resposta_correta": [
+                    "git add .",
+                    "git commit -m \"alterações de milhões\""
+                ]
+            }
+        ]
+    ]
+}
