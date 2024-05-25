@@ -1,0 +1,16 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Git status",
+    "descricao": [
+        "Para isso, você pode usar o git status. Isso vai nos retornar se nossa caixa está em empacotamento, sendo identificada ou se está pronta para envio. ",
+        "Este processo é importante para podermos ter certeza em que etapa estamos, para não fazermos o processo de maneira incorreta."
+    ],
+    "exemplo": [
+        [
+            {
+                "texto": "git status",
+                "cor": "#FFB800"
+            }
+        ]
+    ]
+}
