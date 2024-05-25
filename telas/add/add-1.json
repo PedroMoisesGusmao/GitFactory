@@ -1,0 +1,9 @@
+{
+    "tipo": "dialogo",
+    "titulo": "Adicione suas mudanças na caixa!",
+    "descricao": [
+        "Depois que você fizer as mudanças necessárias, você precisa embalar!",
+        "Para embalar, usamos o comando git add!"
+    ],
+    "imagens": []
+}
