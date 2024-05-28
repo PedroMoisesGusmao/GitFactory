@@ -16,6 +16,10 @@
                 "cor": "#C00898"
             },
             {
+                "texto": "user.name",
+                "cor": "#1BC400"
+            },
+            {
                 "texto": "\"username\"",
                 "cor": "#6FBBE5"
             }
@@ -28,6 +32,10 @@
             {
                 "texto": "--global ",
                 "cor": "#C00898"
+            },
+            {
+                "texto": "user.mail",
+                "cor": "#1BC400"
             },
             {
                 "texto": "\"name@email.com\"",
