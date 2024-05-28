@@ -10,8 +10,12 @@
     "exemplo": [
         [
             {
-                "texto": "git add .",
+                "texto": "git add",
                 "cor": "#FFB800"
+            },
+            {
+                "texto": ".",
+                "cor": "#6FBBE5"
             }
         ]
     ]
