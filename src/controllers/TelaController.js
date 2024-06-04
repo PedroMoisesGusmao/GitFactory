@@ -20,7 +20,18 @@ class TelaController{
     }
 
     async store(req, res){
-        const { grupoTela, tipo, titulo, descricao, imagem = undefined } = req.body;
+        const { tipo } = req.body;
+        if (tipo === 'exemplo') {
+            if (!req.body.exemplo) {
+                return res.status(400).json({ error: "Atributo 'exemplo' é obrigatório para tela de tipo 'exemplo'" });
+            }
+        } else if (tipo === 'terminal') {
+            if (!req.body.terminal) {
+                return res.status(400).json({ error: "Atributo 'resposta' é obrigatório para tela de tipo 'terminal'"});
+            }
+        }
+
+        const { grupoTela, titulo, descricao, imagem = undefined } = req.body;
         
         const atributosObrigatorios = ["grupoTela", "tipo", "titulo", "descricao"];
         const naoObrigatorios = ["imagem", "exemplo", "desafio"];
@@ -50,6 +61,7 @@ class TelaController{
         if (!imagem){
             insercao.imagem = imagem;
         }
+
         const tela = await Tela.create(insercao);
         return res.json({ tela });
     }
