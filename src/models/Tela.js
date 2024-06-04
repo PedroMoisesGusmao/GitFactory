@@ -8,7 +8,7 @@ const Tela = new Schema({
     imagem: String,
     exemplo: Array,
     desafio: Array,
-    resposta: String
+    resposta: Array
 })
 
 export default model('Tela', Tela);
