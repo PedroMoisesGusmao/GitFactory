@@ -3,8 +3,13 @@ import TelaController from './controllers/TelaController';
 
 const routes = new Router();
 
-routes.get('/tela', TelaController.index);
+routes.get('/tela', headerCors,  TelaController.index);
 
-routes.post('/tela', TelaController.store);
+routes.post('/tela', headerCors, TelaController.store);
+
+function headerCors(req, res, next) {
+    res.set("Access-Control-Allow-Origin", "*");
+    next();
+}
 
 export default routes;
