@@ -5,7 +5,7 @@ const Tela = new Schema({
     tipo: String,
     titulo: String,
     descricao: Array,
-    imagem: String,
+    imagem: Array,
     exemplo: Array,
     desafio: Array,
     resposta: Array

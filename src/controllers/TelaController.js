@@ -34,7 +34,7 @@ class TelaController{
             return res.status(400).json({ error: "Atributo 'grupoTela' precisa estar entre 'dialogo', 'exemplo', 'terminal'"})
         }
 
-        const { grupoTela, titulo, descricao, imagem = "" } = req.body;
+        const { grupoTela, titulo, descricao, imagem = [] } = req.body;
         
         const atributosObrigatorios = ["grupoTela", "tipo", "titulo", "descricao"];
         const naoObrigatorios = ["imagem", "exemplo", "desafio", "resposta"];
