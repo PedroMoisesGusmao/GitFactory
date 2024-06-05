@@ -22,7 +22,7 @@ class TelaController{
     async store(req, res){
         try {
             const { tipo } = req.body;
-            if (tipo === 'dialogo') {}
+            if (tipo === 'dialogo' || tipo === 'final') {}
             else if (tipo === 'exemplo') {
                 if (!req.body.exemplo) {
                     return res.status(400).json({ error: "Atributo 'exemplo' é obrigatório para tela de tipo 'exemplo'" });
@@ -32,13 +32,13 @@ class TelaController{
                     return res.status(400).json({ error: "Atributo 'resposta' e 'desafio' são obrigatórios para tela de tipo 'terminal'"});
                 }
             } else {
-                return res.status(400).json({ error: "Atributo 'tipo' precisa ser uma string entre 'dialogo', 'exemplo', 'terminal'"})
+                return res.status(400).json({ error: "Atributo 'tipo' precisa ser uma string entre 'dialogo', 'exemplo', 'terminal' e 'final'"})
             }
 
-            const { grupoTela, titulo, descricao, imagem = [] } = req.body;
+            const { grupoTela, titulo = '', descricao = [], imagem = [] } = req.body;
             
-            const atributosObrigatorios = ["grupoTela", "tipo", "titulo", "descricao"];
-            const naoObrigatorios = ["imagem", "exemplo", "desafio", "resposta"];
+            const atributosObrigatorios = ["grupoTela", "tipo", "titulo", "descricao", "imagem"];
+            const naoObrigatorios = ["exemplo", "desafio", "resposta"];
             const erros = [];
             for (const atributo in req.body) {
                 if (atributosObrigatorios.filter(elemento => elemento == atributo).length != 1
