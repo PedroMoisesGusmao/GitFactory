@@ -8,7 +8,7 @@ routes.get('/tela', headerCors, TelaController.index);
 routes.post('/tela', headerCors, TelaController.store);
 
 function headerCors(req, res, next) {
-    res.send("Access-Control-Allow-Origin", "*");
+    res.set("Access-Control-Allow-Origin", "http://127.0.0.1:5500");
     next();
 }
 
