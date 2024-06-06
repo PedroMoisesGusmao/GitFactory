@@ -3,8 +3,8 @@ import TelaController from './controllers/TelaController';
 
 const routes = new Router();
 
-routes.get('/tela', headerCors,  TelaController.index);
+routes.get('/tela', TelaController.index);
 
-routes.post('/tela', headerCors, TelaController.store);
+routes.post('/tela', TelaController.store);
 
 export default routes;
