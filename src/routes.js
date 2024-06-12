@@ -8,7 +8,7 @@ routes.get('/tela', headerCors, TelaController.index);
 routes.post('/tela', headerCors, TelaController.store);
 
 function headerCors(req, res, next) {
-    res.set("Access-Control-Allow-Origin", "https://joaodinizaraujo.github.io/GitFactory");
+    res.set("Access-Control-Allow-Origin", "https://joaodinizaraujo.github.io");
     next();
 }
 
